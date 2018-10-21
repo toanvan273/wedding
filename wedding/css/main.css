@@ -1,0 +1,331 @@
+	.head{
+			background-image: url(../images/b4.jpg);
+				height: 700px;
+		}
+		.header{
+			
+			display: flex;
+			justify-content: space-around;
+			flex-wrap: nowrap;
+		
+		}
+		.logo{
+			width: 30%;
+			height: 100px;
+			padding: 7px;
+			text-align: center;
+			
+		}
+		.logo h2{
+			text-shadow: 2px;
+			color: #ff708e;
+		}
+		.logo p{
+			box-shadow: 2px;
+			color: white;
+		}
+		.menu{
+			width: 70%;
+			padding-top: 15px;
+			
+		}
+		.menu ul{
+			display: flex;
+			justify-content: space-around;
+		}
+		.menu ul li{
+			list-style-type: none;
+			color: white;
+			padding-top: 10px;
+		}
+		.menu ul li a{
+			text-decoration: none;
+			list-style-type: none;
+			color: white;
+		}
+		.menu ul li a:hover{
+			color: pink;
+		}
+		.header-caption{
+			text-align: center;
+			padding-top: 20%;
+			
+		}
+		.header-caption h1{
+			font-size: 40px;
+			color: white;
+		}
+		.header-caption p{
+			font-size: 60px;
+			color: #297CBB;
+			margin: 15px;
+		}
+		.story{
+		padding-top: 20px;
+		}
+		.istory h1{
+			color: #297CBB;
+
+		}
+		.imgs{
+			display: flex;
+			justify-content: space-around;
+			flex-wrap: nowrap;
+		}
+		.img-item{
+			border-radius: 10px;
+			border: 4px solid pink;
+		}
+		.icountdown{
+			background-image: url(../images/d1.jpg);
+			height: 400px;
+			text-align: center;
+		}
+		.icap-count h1{
+		 color: white;
+		 padding: 20px;
+		 font-size: 50px;
+			font-family: Arial;
+		}
+		/* Simply-Countdown */
+		.icount{
+		width: 50%;
+		  margin: 0px auto;
+		}
+		.simply-countdown {
+		  overflow: hidden;
+		  display: table; 
+		}
+		.simply-countdown>.simply-section {
+		  width: 137px;
+		  height: 137px;
+		  display: -webkit-box;
+		  display: -moz-box;
+		  display: -webkit-flex;
+		  display: -ms-flexbox;
+		  display: flex;
+		  -webkit-box-pack: center;
+		  -moz-box-pack: center;
+		  -ms-flex-pack: center;
+		  -webkit-justify-content: center;
+		  justify-content: center;
+		  -webkit-box-align: center;
+		  -moz-box-align: center;
+		  -webkit-align-items: center;
+		  -ms-flex-align: center;
+		  align-items: center;
+		  float: left;
+		  /*margin: 15px;*/
+		  background: rgba(255, 255, 255, 0.6196078431372549);
+		  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); */
+		}
+		.simply-countdown>.simply-section .simply-amount {
+			  font-size: 61px;
+			  color: rgba(0, 0, 0, 0.47);
+			  line-height: 75px;
+			}
+
+			.simply-countdown>.simply-section .simply-word {
+			  font-size: 17px;
+			  color: #000;
+			  font-style: italic;
+			  font-weight: 500;
+			  letter-spacing: 3px;
+			  text-transform: capitalize;
+			}
+
+			.simply-countdown>.simply-section .simply-amount,
+			.simply-countdown>.simply-section .simply-word {
+			  display: block;
+			  text-align: center;
+			}
+			/*End Simply-Countdown */
+			.blog{
+				width: 100%;
+				height: auto;
+				background-color: pink;
+				box-shadow: 2em;
+				line-height: 2em;
+				padding-left: 5px;
+			}
+			.blog h2{
+				color: #297CBB;
+			}
+			.bloga img{
+				border: 4px solid white;
+			}
+			.bloga{
+				padding: 10px;
+				display: flex;
+				justify-content: center;
+				align-content: center;
+			}
+			.xslide img{
+			border: 5px solid #bf538d;
+			}
+			.xslide span{
+				font-weight: bold;
+				font-size: 20px;
+				color: red;
+			}
+			.xslide h2{
+				color: #288ad6;
+			}
+			.journal h1{
+				text-align: center;
+				font-size: 50px;
+				color: #2c3643;
+				font-weight: bold;
+			}
+			.friends h1{
+				text-align: center;
+				font-size: 50px;
+				color:#ffffff;
+				font-weight: bold;
+				margin-top: -10px;
+			}
+			.friend{
+				background-image: url(../images/f1.jpg); 
+				width: 100%;
+				height: 300px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-content: center;
+			}
+
+			.ifriend{
+				background: white;
+				width: 90%;
+				height: 150px;
+				opacity: 0.6;
+				padding-left: 20px;
+				display: flex;
+				flex-direction: column;
+				align-content: space-between;
+			}
+/*--Crazy Movements-- */
+
+#crazy {
+  display: none;
+}
+
+.nbs-flexisel-container {
+  position: relative;
+  max-width: 100%;
+}
+
+.nbs-flexisel-ul {
+  position: relative;
+  width: 99999px;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  text-align: center;
+  overflow: auto;
+}
+
+.nbs-flexisel-inner {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  width: 100%;
+  background: #fcfcfc;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+}
+
+.nbs-flexisel-item {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  line-height: 0px;
+}
+
+.nbs-flexisel-item img {
+  max-width: 100%;
+  position: relative;
+}
+
+
+/*** Navigation ***/
+
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+  padding: 5px 10px;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 4;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.nbs-flexisel-nav-left {
+  left: 10px;
+}
+
+.nbs-flexisel-nav-left:before {
+  content: "<"
+}
+
+.nbs-flexisel-nav-left.disabled {
+  opacity: 0.4;
+}
+
+.nbs-flexisel-nav-right {
+  right: 5px;
+}
+
+.nbs-flexisel-nav-right:before {
+  content: ">"
+}
+
+.nbs-flexisel-nav-right.disabled {
+  opacity: 0.4;
+}
+
+
+/*-- //Crazy Movements-- */
+.happy{
+	background-color: pink;
+	height: 500px;
+	width: 100%;
+	text-align: center;
+	display: grid;
+	grid-template-columns: auto;
+	grid-row-gap: 5px;
+	margin-top: 20px;
+}
+
+.happy h3 a{
+	text-decoration: none;
+	color: #297CBB;
+}
+.happy ul li{
+	text-decoration: none;
+	list-style-type: none;
+}
+.happy ul li a{
+	text-decoration: none;
+	list-style-type: none;
+}
+.happy ul{
+	width: 300px;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+.cuoi{
+	text-align: center;
+	height: 10px;
+}
